@@ -1,0 +1,618 @@
+/* Main content CSS styling. */
+
+#main_content{
+    position: relative;
+    display: block;
+    height: 400vh;
+    /* background-color: aquamarine; */
+}
+
+/* Side content */
+.listing_box_sub_info{
+    display: block;
+    position: sticky;
+    background-color: white;
+    float: right;
+    width: 20%;
+    height: auto; 
+    margin: calc(44px) 0; /* margin 10px 24px. */
+    border: solid black 2px;
+    border-radius: 0.3rem;
+    padding: 10px calc(1%);
+    box-sizing: border-box;
+}
+
+.listing_box_sub_info h3{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+    word-wrap: normal;
+
+}
+
+
+.listing_box_sub_no_icons_wrapper_flex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.listing_box_sub_no_icons_wrapper_flex span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    White-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.listing_box_sub_button_wrapper{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.listing_box_sub_button_wrapper button{
+    /* Button */
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2em;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    border: solid black 3px;
+    border-radius: 0.45em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing_box_sub_button_wrapper button *{
+    font-family: SFNS-Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.listing_box_sub_button_wrapper_duo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.listing_box_sub_button_wrapper_duo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0 2px;
+
+}
+
+.listing_box_sub_button_wrapper_duo div button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: solid black 3px;
+    border-radius: 0.45em;
+    cursor: pointer;
+
+}
+
+.status_no, .share_no{
+    color: rgba(0,0,0,0.5);
+    font-size: 0.8em;
+}
+
+.report_status{
+    color: rgba(0,0,0,0.7);
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.report_status *{
+    text-decoration: underline;
+    color: rgba(0,0,0,1);
+}
+
+/* End of side content. */
+
+
+
+
+
+
+/* Nav main top*/
+#nav_top{
+    padding: 10px;
+    width: 100%;
+    position: inherit;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+
+
+#nav_top a{
+    color: black;
+    /* text-decoration: none; */
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+#nav_top a:hover{
+    text-decoration: none;
+}
+
+
+/* Listing general css styling. */
+.listing_full_wrapper{
+    position: relative;
+    /* background-color: yellowgreen; */
+}
+
+.listing_full_img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.listing_full_img figure{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+.listing_full_img figure img{
+    position: relative;
+    width: 100%;
+    border-radius: 2em 2em 0 0;
+}
+
+
+.listing_full_img_overlay{
+    /* Grey backscale. */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2em;
+    background-color: rgba(0,0,0,0.7);
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.listing_full_img_overlay_utilities_wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+.listing_full_img_overlay_utilities_wrapper span{
+    margin:0 10px;
+    font-size: 1.3em;
+}
+.listing_full_img_overlay_utilities_wrapper button{
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+    
+}
+.listing_full_img_overlay_utilities_wrapper button img{
+    color: white;
+    width: 2em;
+    height: 2em;
+
+}
+
+/* Image scroller element. */
+.listing_full_img_array_wrapper{
+    margin: 10px 0 15px 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   
+
+}
+
+
+.listing_full_img_array_wrapper button{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    margin: 0 15px 0 0;
+    box-sizing: border-box;
+    width: auto;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+} 
+
+.listing_full_img_array_item img{
+    width: 275px;
+}
+
+.selected_image{
+    opacity: 0.6;
+}
+
+
+/* Hashtags */
+.listing_full_hashtag_wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.listing_full_hashtag_item{
+    background-color: grey;
+    padding: 5px 15px;
+    margin: 0 10px 0 0;
+    border-radius: 100em;
+    font-size: 0.8em;
+    /* TODO: Add colours to the different hashtag items. */
+
+}
+
+/* Main header styling. */
+.listing_full_title_wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.listing_full_title_wrapper > h1{
+    font-size: 2.7em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.listing_full_title_wrapper > h3{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+.custom_line_break{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 5px 0;
+    padding: 0;
+    border-radius: 100em;
+}
+
+/* Main information about listing properties. */
+.listing_full_props_wrapper_flex{
+    margin: 25px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Row 1 Column 1 Title */
+.listing_full_props_price_wrapper{
+    flex-grow: 2;
+}
+
+.listing_full_props_price_info_item_flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.7;
+    margin: 10px 0 ;
+}
+
+.listing_full_props_price_info_item_flex span{
+    font-size: 1em;
+}
+
+
+.listing_full_props_price_info_item_flex:nth-child(1){
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+}
+
+.listing_full_props_price_info_item_flex:nth-child(1) span:nth-child(1){
+    font-size: 1.5em;
+    color: rgba(0,0,0,1);
+    margin-right: 10px;
+}
+
+
+.listing_full_props_price_info_item_flex:nth-child(1) span:nth-child(2){
+    font-size: 1em;
+    color: rgba(0,0,0,0.7);
+}
+
+.listing_full_props_price_info_item_flex img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    /* color: rgba(0,0,0,0.7); */
+    opacity: 0.7;
+}
+
+
+/* Row Column 1 Average Price */
+.listing_full_props_price_avg_item{
+    margin: 10px 0;
+}
+
+.listing_full_props_price_avg_item span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.listing_full_props_price_avg_item span img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    /* color: rgba(0,0,0,0.7); */
+    opacity: 0.7;
+}
+
+
+/* Row 1 Column 2*/
+.listing_full_props_map_wrapper{
+    display: flex;
+    max-width: 60%;
+    height: auto;
+    border: none;
+    
+}
+
+.listing_full_props_map_wrapper img{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    background-color: black;
+    border-radius: 1em;
+}
+
+
+
+
+/* Key features for property css styling. */
+.listing_full_props_key_wrapper{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 25px 0;
+}
+
+
+
+
+.listing_full_props_key_table{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 25px 0;
+}
+
+.listing_full_props_key_table_flex{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 25px 0;
+}
+
+.listing_full_props_key_subtable_flex{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.listing_full_props_key_subtable_flex_item{
+    margin: 5px 0;
+}
+
+.listing_full_props_key_subtable_flex_item span{
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.listing_full_props_key_subtable_flex_item span img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    /* color: rgba(0,0,0,0.7); */
+    opacity: 0.7;
+}
+
+/* Review section */
+.listing_full_props_reviewers_wrapper{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 25px 0 ;
+}
+
+.review_status{
+    display: flex;
+    position: relative;
+    width:auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: none;
+}
+
+.review_status img, .review_status span{
+    opacity: 0.7;
+}
+
+.listing_full_props_reviewers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 25px 0 ;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.review_content{
+    background-color: #1A2637;
+    padding: 10px;
+    border-radius: 1em;
+    color: white;
+    margin: 10px 10px 10px 0;
+    min-width: 35%;
+}
+
+.review_content_stars_array_flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 5px;
+}
+
+.review_content_main_content{
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
+
+.review_content_stats_flex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#nav_bottom{
+    padding: 10px 0;
+    width: 100%;
+    position: inherit;
+    text-decoration: underline;
+    color: black;
+    
+}

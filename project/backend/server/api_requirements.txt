@@ -1,0 +1,60 @@
+Request:
+/search?q=London
+
+Example Response:
+{
+	listings_no: 125,
+	listings : [
+		{ 
+			id: 2,
+			listing_cover_image_url: "https://flatfinder.cdn.fdm.com/cover_image.png",
+			monthly_price: 1230,
+			weekly_price: 330,
+			bathroom_no: 2,
+			bedroom_no: 4,
+			listing_title: "Sudbury Court Drive, Harrow, HA1 3TA",
+			listing_subtitle: "Harrow Road, Wembley, HA1",
+			agent_tel: 07720346841,
+			agent_email: "agent007@mi5.gov.uk"
+		},
+		{},
+		{}
+	]
+}
+
+Request:
+/listing?id=2
+
+Example Response:
+{
+	data : {
+		"listing_images": ["https://flatfinder.cdn.fdm.com/cover_image.png", "https://flatfinder.cdn.fdm.com/cover_image.png","https://flatfinder.cdn.fdm.com/cover_image.png","https://flatfinder.cdn.fdm.com/cover_image.png"],
+		"listing_tags":  ["Highly  Recommended", "Modern", "Eco-friendly"],
+		"listing_title": "Sudbury Court Drive, Harrow, HA1 3TA",
+		"listing_subtitle": "Harrow Road, Wembley, HA1",
+		"monthly_price": 1230,
+		"weekly_price": 330,
+		"contract_length": 6,
+		"property_type": "Studio",
+		"avg_water_monthly_cost": 35,
+		"avg_electricity_monthly_cost": 35,
+		"avg_gas_monthly_cost": 40,
+		"avg_internet_monthly_cost": 30,
+		# Key features will take too long so wont include.
+		reviews: {
+			no_reviews: 20,
+			overall_rating: 3.5,
+			reviews : [
+				{
+					no_rating: 4.5,
+					review_content: "Amazing place, excellent services and transport links",
+					"username_id": 24,
+					"username": "Lawcoste",
+					"timestamp_epoch": 1648914941
+				},
+				{},
+				{}
+			]
+		}
+	}
+}

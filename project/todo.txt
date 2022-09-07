@@ -1,0 +1,24 @@
+Backend:
+Create database online, compass and link.  // done
+Create script to make random data and input it into mongodb.  // done
+Complete auth and listing apis. // 
+
+
+Frontend:
+Create the admin and consultant dashboard. CONSULTANT DASHBOARD DONE IN HTML AND CSS. // 
+Finish ListingPreview component with some basic examples, like shown for the listing full component. // 
+Create dashboard in react and we then connect both ends.
+
+
+After backend is done:
+Handle login and signup react using a api. // 
+Connected both login and signup. //
+
+Auth Context:
+Make context to make sure
+
+
+Formalities:
+Make sure we are in line with requirements for presentation.
+
+Done, GG.

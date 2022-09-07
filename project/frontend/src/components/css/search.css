@@ -1,0 +1,297 @@
+#search_main_content{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+/* Filter section will be left for now,
+ needs a redesign to include requirements*/
+
+
+ /* Listing section */
+#result_wrapper {
+  margin: 20px 0;
+  /* background-color: red; */
+  font-family: SFNS-Display,  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Outer box of listing element */
+.result_listing_flex{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 1em;
+    /* background-color: yellow; */
+    border: solid 1px #707070;
+    margin: 1em 0;
+    cursor:pointer;
+    width: 100%;  
+	aspect-ratio: 1/0.15;
+	object-fit: contain;
+}
+
+.result_listing_pic{
+    border-radius: 1em;
+    border-radius: 1em 0 0 1em;
+}
+
+.result_listing_flex:hover{
+    /* add dark shadow on outter  */
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.5);
+}
+
+
+.result_listing_info_flex img{
+    width:1em;
+    height: 1em;
+}
+
+
+/* Splitting two sections image and content, left and right */
+.result_listing_flex .result_listing_pic{
+    flex-grow: 1;
+    background-color: black;
+    width: 12%;
+    overflow: hidden;
+    display: flex;
+    /* padding: calc(2%) 0 */
+}
+.result_listing_flex .result_listing_pic > img{
+    width: 100%;
+} 
+
+.result_listing_flex .result_listing_info_flex{
+    flex-grow: 4;
+}
+
+/* Listing three rows for internal listing css styling */
+.result_listing_info_flex{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    font-size: 1em;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+
+/* Listing top row css styling */
+.top_row_info_flex{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 10px 0; */
+}
+
+/* Styling top row elements */
+
+/* Price elements */ 
+
+.price_listing_wrapper p:nth-child(1){
+    font-family: SFNS-Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+}
+.price_listing_wrapper p:nth-child(2){
+    font-family: SFNS-Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9em;
+    color: #A8A8A8;
+}
+
+/* Saving elements */
+.save_listing_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.save_listing_wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+.save_listing_wrapper a:hover{
+    text-decoration: underline;
+}
+
+
+/* Mid row css syling */
+.mid_row_info_flex{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.utilities_icon_flex_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+
+.utilities_icon_flex_wrapper div{
+    margin-right:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.utilities_icon_flex_wrapper span{
+    color: #666666;
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+
+.mid_row_info_flex h2{
+    font-size: 1.3em;
+}
+
+.mid_row_info_flex h3{
+    font-size: 1em;
+    color: #8E8E8E;
+}
+
+/* Botttom row info css styling. */
+
+.bottom_row_info_flex{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Bottom row elements */
+.contact_buttons{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+/* Bottom row contact buttons */ 
+.contact_flex{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    text-decoration: underline;
+    border-radius: 0.25rem;
+    font-family: SFNS-Text-Light;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.contact_flex:hover{
+    text-decoration: none;
+}
+
+
+.call_btn{
+    background-color: white;
+    border: solid black 1px;
+    color: black;
+}
+
+.call_btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.email_btn{
+    background-color: black;
+    border: black solid 1px;
+    color: white;
+
+}
+
+.email_btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Bottom row report element */
+.report_button{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.report_button a{
+    text-decoration: underline;
+    color: black;
+    font-size: 0.6em;
+}
+
+
+#backtop_anchor{
+    color: black;
+    text-decoration: underline;
+    font-family: SFNS-Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#filter_section{
+    background-color: palegoldenrod;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid black 3px;
+    border-radius: 0.25rem;
+}
+.filter_section_item{
+    padding: 5px 0;
+    width: 100%;
+}
+.filter_section_item input{
+    padding: 5px;
+}
+
+#no_result{
+    color: red;
+    font-size: 1.5em;;
+    font-family: 'Consolas';
+    padding: 10px;
+    box-sizing: border-box;
+}

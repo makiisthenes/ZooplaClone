@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="compass_icon" transform="translate(-1 -1)" opacity="0.37">
+    <g id="Group_1" data-name="Group 1" transform="translate(1 1)">
+      <path id="Path_46" data-name="Path 46" d="M14.5,1A13.5,13.5,0,1,0,28,14.5,13.515,13.515,0,0,0,14.5,1Zm6.409,7.862-3.522,8.217a.586.586,0,0,1-.308.308L8.862,20.909a.581.581,0,0,1-.231.048.587.587,0,0,1-.539-.818l3.522-8.217a.586.586,0,0,1,.308-.308l8.217-3.522a.587.587,0,0,1,.771.771Z" transform="translate(-1 -1)" fill="#b9b9b9"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="2" cy="2" r="2" transform="translate(11.339 11.416)" fill="#b9b9b9"/>
+    </g>
+  </g>
+</svg>

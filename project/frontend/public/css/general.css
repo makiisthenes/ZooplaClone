@@ -1,0 +1,107 @@
+
+/* IMPORTANT GENERAL CSS FILE STYLE */
+.mid_70_layout{
+    width: 56.5%;
+    margin: 0 auto;
+}
+
+/* General CSS files. */
+.blue_btn{
+    background-color: #2680EB;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    font-family: SFNS-Display, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.flipx{
+    transform: scaleX(-1);
+}
+
+.subcategory{
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    color: rgba(0,0,0,1);
+}
+
+
+.hide_scroll{
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbarne;
+    scrollbar-width: none;
+}
+
+.hide_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* On hover make scrollbar visible again for .listing_full_img_array_wrapper */
+.hide_scroll:hover::-webkit-scrollbar {
+    display: block;
+}
+
+.hide_scroll:hover{
+    /* Show scrollbar visible*/
+    -ms-overflow-style: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: auto;
+}
+
+.black_button{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.black_button *{
+    color:white;
+}
+
+.white_button{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.white_button *{
+    color:black;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+.red_btn{
+    background-color: #EB4335;
+    border: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.grey_btn{
+    background-color: #BFB7B7;
+    border: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}

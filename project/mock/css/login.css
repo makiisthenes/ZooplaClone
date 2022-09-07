@@ -1,0 +1,43 @@
+.action_box_contents_split_left{
+    max-width: 70%;
+    width: 100%;
+}
+
+.action_box_contents_split_right{
+    margin-left: 10px;
+    max-width: 30%;
+    width: 100%;
+    
+
+}
+
+.third_party_wrapper{
+    width: 70%;
+    margin: 10px 0;
+    border: solid 1px black;
+    border-radius: 0.5em;
+}
+
+
+.third_party_button{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.third_party_wrapper_flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.third_party_wrapper_flex img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

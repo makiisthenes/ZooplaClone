@@ -1,0 +1,31 @@
+/* Nav bar content */
+#nav_full {
+    position: sticky;
+    top:0;
+    background-color: #000;
+    box-sizing: border-box;
+    padding: 1em ;
+    z-index: 999999;
+}
+
+#main_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main_nav *{
+    color: white;
+    font-family: SFNS-Display;
+    text-decoration: none;
+}
+
+#main_nav h2{
+    font-size: 2.1em;
+}
+
+#main_nav button{
+    font-size: 1em;
+    padding: 10px 35px;
+}

@@ -1,0 +1,132 @@
+#dashboard_main_content{
+    position: relative;
+}
+
+
+.sign_out_button{
+    padding: 0 0.55em;
+    float: right;
+}
+
+.sign_out_button button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.link p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link a{
+    color: blue;
+}
+
+.dashboard_action_box_contents_split_right{
+    margin-left: 10px;
+    width: 100%;
+}
+
+.action_box_wrapper{
+    width: 100%;
+}
+
+
+.action_box{
+    box-sizing: border-box;
+    border: solid 1px rgba(0,0,0,0.5);
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.dashboard_title_wrapper_flex{
+    display: flex;
+    width: 100%;
+    /* background-color: lightblue; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: max-content;
+}
+.dashboard_title_wrapper_flex h1{
+    width: auto;
+    padding-right: 10px;
+}
+
+.dashboard_title_wrapper_flex button{
+    padding: 0.25em;
+    font-size: 1.4em;
+}
+
+/* Admin styling. */
+.admin_maintance_button_flex{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.admin_maintance_button_flex div{
+    margin-right: 10px;
+}
+
+.admin_maintance_button_flex button{
+    padding: 0.25em;
+    font-size: 1.4em;
+    
+}
+
+.admin_section{
+    padding: 10px;
+    border: solid 2px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.search_button{
+    margin: 10px 0;
+}
+
+.consultants_results_wrapper{
+    position: relative;
+    width: 100%;
+    background-color: azure;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    height: 20%;
+}
+
+.consultant_result_item_flex{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px rgba(0,0,0,0.5);
+    border-radius: 0.25rem;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.consultant_result_item_flex_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.consultant_result_item_flex_left *{
+    padding: 10px;
+    /* border: solid 1px rgba(0,0,0,0.5); */
+    cursor:crosshair;
+}

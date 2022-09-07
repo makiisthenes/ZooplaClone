@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mock Admin Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/general.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+        <link rel="stylesheet" href="css/signup.css" />
+        <link rel="stylesheet" href="css/admin.css" />
+        <link rel="stylesheet" href="css/dashboard.css" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- For main nav top header. -->
+        <div id="nav_full">
+            <nav id="main_nav" class="mid_70_layout">
+                <h2><a href="index.html">Maki Flat Finder</a></h2>
+                <div class="login_button">
+                    <button class="blue_btn whitefg">Login</button>
+                </div>
+            </nav>
+        </div>
+
+        <div id="main_content" class="mid_70_layout">
+            <div class="action_box_wrapper">
+                <div class="dashboard_title_wrapper_flex">
+                    <h1>Dashboard</h1> <button class="blue_btn whitefg">Admin</button>
+                </div>
+                <div class="action_box">
+                    <form>
+                        <div class="maintenance admin_section">
+                            <h3>Start Maintenance Break</h3>
+                            <p>An alert to all current users will be send, starting a 5 minute timer before before the maintenance cut.</p>
+                            <div class="admin_maintance_button_flex">
+                                <div id="start_button">
+                                    <button class="red_btn whitefg">Start</button>
+                                </div>
+                                <div class="force_start_button">
+                                    <button class="grey_btn whitefg">Force Start</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="search admin_section">
+                            <h3>Search Consultant</h3>
+                            <p>Remove Consultants</p>
+                            <form name="remove_consultants">
+                                <div class="input_wrapper">
+                                    <input type="text" name="consultant_username" placeholder="Enter Consultant Username:"  required/>
+                                </div>
+                                <div class="search_button">
+                                    <button class="grey_btn whitefg">Search</button>
+                                </div>
+                            </form>
+
+                            <div class="consultants_results_wrapper">
+                                <div class="consultant_result_item">
+                                    <div class="consultant_result_item_flex">
+                                        <div class="consultant_result_item_flex_left">
+                                            <h4>Name: Truetinker</h4>
+                                            <p>ID: 1246</p>
+                                        </div>
+                                        <div class="consultant_result_item_flex_right">
+                                            <button class="grey_btn whitefg">Remove Consultant</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+
+
+
+                        <div class="delete_account admin_section">
+                            <button class="red_btn whitefg">Delete my account</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</HTML>
